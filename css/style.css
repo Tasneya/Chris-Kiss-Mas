@@ -1,0 +1,653 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+ul,
+ol {
+	list-style-type: none;
+}
+
+/*========== navbar start ========*/
+.navbar-light .navbar-nav .nav-link {
+	font-family: 'Open Sans';
+	font-weight: 700;
+	font-size: 14px;
+	color: brown;
+	transition: all linear .3s;
+	position: relative;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #000;
+}
+
+.navbar-brand b {
+	color: brown;
+	font-size: 30px;
+	font-family: 'Marck Script';
+	font-weight: 400;
+
+}
+
+.navbar-brand b span {
+	color: #000;
+	font-size: 30px;
+	font-family: 'Marck Script';
+	font-weight: 700;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.navbar {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 9999;
+	transition: all linear .3s;
+	color: #dae2e8;
+}
+
+.light2 {
+	background: #dae2e8;
+	animation: bg 1s;
+}
+
+@keyframes bg {
+	from {
+		top: -100px
+	}
+
+	to {
+		top: 0;
+	}
+}
+
+/*========== navbar End ========*/
+
+/*========== Banner Start ========*/
+#particles-js {
+	background: url(../images/snowman-.webp);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 250px;
+	padding-bottom: 100px;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 500px;
+	position: relative;
+}
+
+.particles-js-canvas-el {
+	position: absolute;
+	top: 0;
+}
+
+.text h1 {
+	font-family: 'Abril Fatface';
+	color: #fff;
+	font-size: 40px;
+	font-weight: 400;
+	padding-top: 100px;
+
+}
+
+/*========== Banner End ========*/
+
+/*========== Skewed Start ========*/
+
+#skewed {
+	padding-bottom: 50px;
+}
+
+.texts {
+	background: #fff;
+	height: 50px;
+	width: 100%;
+	position: relative;
+}
+
+.texts:before {
+	background: #fff;
+	height: 125px;
+	position: absolute;
+	content: '';
+	width: 60%;
+	top: -40px;
+	left: 0;
+	transform: skewY(7deg);
+}
+
+.texts:after {
+	background: #fff;
+	height: 125px;
+	position: absolute;
+	content: '';
+	width: 60%;
+	top: -40px;
+	right: 0;
+	transform: skewY(-7deg);
+}
+
+.texts2 p {
+	color: #111;
+	line-height: 24px;
+	font-size: 14px;
+	font-weight: 400;
+	font-family: sans-serif;
+	margin-top: 30px;
+}
+
+.texts2 h1 {
+	color: brown;
+	font-size: 50px;
+	font-family: 'Abril Fatface';
+	font-weight: 400;
+}
+
+/*========== Skewed End ========*/
+
+
+/*========== Counter Start ========*/
+#counter {
+	background: brown;
+	position: relative;
+	margin-top: 80px;
+	box-shadow: 0 25px 30px rgba(0, 0, 0, .5);
+
+}
+
+.counter-text h1 {
+	font-size: 50px;
+	line-height: 20px;
+	font-weight: 400;
+	text-transform: capitalize;
+	font-family: 'Abril Fatface';
+	padding-bottom: 40px;
+	color: brown;
+}
+
+.counter-item img {
+	padding-bottom: 50px;
+}
+
+.counter-text p {
+	color: #111;
+	line-height: 24px;
+	font-size: 14px;
+	font-weight: 400;
+	font-family: 'Open Sans';
+}
+
+#particles-js-other .particles-js-canvas-el {
+	position: absolute;
+	top: 0;
+	z-index: 9999999;
+}
+
+.counter-item h2 {
+	color: brown;
+	font-family: 'Abril Fatface';
+	font-size: 25px;
+	font-weight: 400;
+}
+
+.counter-item h3 {
+	color: brown;
+	font-family: 'Abril Fatface';
+	font-size: 25px;
+	font-weight: 400;
+}
+
+.counter-item {
+	position: relative;
+}
+
+.coun {
+	position: absolute;
+	top: 205px;
+	left: 112px;
+}
+
+.coun2 {
+	position: absolute;
+	top: 240px;
+	left: 86px;
+}
+
+/*========== Counter End ========*/
+
+/*========== Donate Start ========*/
+#donate {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.donate-text h1 {
+	font-size: 60px;
+	font-weight: 400;
+	text-transform: capitalize;
+	font-family: 'Abril Fatface';
+	padding-bottom: 60px;
+	position: relative;
+	color: brown;
+}
+
+.donate-text p {
+	color: #444;
+	line-height: 24px;
+	padding-bottom: 30px;
+	font-family: 'Open Sans';
+}
+
+.btn {
+	font-size: 15px;
+	line-height: 24px;
+	font-weight: 400;
+	font-family: 'Open Sans';
+	border-radius: 35px;
+	border: 1px solid #fff;
+	padding: 12px 26px;
+	color: #fff;
+	background: brown;
+}
+
+.btn:hover {
+	padding: 12px 46px;
+	background: #fff;
+	color: brown;
+	border-radius: 100px;
+	border: 2px solid brown;
+	box-shadow: 0px 0px 40px 1px rgba(0, 0, 0, 0.15);
+}
+
+.btn2 {
+	font-size: 20px;
+	background: brown;
+	color: #fff;
+	font-weight: 400;
+	font-family: 'Open Sans';
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	cursor: pointer;
+	overflow: hidden;
+	box-shadow: 0px 0px 40px 1px rgba(0, 0, 0, 0.15);
+}
+
+.btn2:hover {
+	padding: 12px 46px;
+	background: #fff;
+	color: brown;
+	border-radius: 100px;
+	border: 2px solid brown;
+	box-shadow: 0px 0px 40px 1px rgba(0, 0, 0, 0.15);
+}
+
+/*========== Donate End ========*/
+
+/*========== Santa Start ========*/
+#santa {
+	padding-bottom: 100px;
+}
+
+.s-text h3 {
+	font-size: 25px;
+	font-weight: 400;
+	text-transform: capitalize;
+	font-family: 'Open Sans';
+	letter-spacing: 2px;
+	color: brown;
+}
+
+/*========== Santa End ========*/
+
+/*========== Book Start ========*/
+#book {
+	position: relative;
+}
+
+#particles-js-another .particles-js-canvas-el {
+	position: absolute;
+	top: 0;
+	z-index: 9999999;
+}
+
+
+.book-text {
+	position: absolute;
+	left: 285px;
+	top: -413px;
+}
+
+.book-text h3 {
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: capitalize;
+	font-family: 'Open Sans';
+	color: brown;
+}
+
+.book-text p {
+	color: #111;
+	font-size: 18px;
+	font-weight: 500;
+	font-family: 'Open Sans';
+}
+
+.button button {
+	font-family: "Open Sans";
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 400;
+	color: #fff;
+	background: #c93232;
+	padding: 12px 26px;
+	border: 2px solid #fff;
+	cursor: pointer;
+	margin-top: 5px;
+}
+
+.button button:hover {
+	padding: 12px 46px;
+	background: #fff;
+	color: brown;
+	border-radius: 100px;
+	border: 2px solid brown;
+	box-shadow: 0px 0px 40px 1px rgba(0, 0, 0, 0.15);
+}
+
+.book-text textarea {
+	height: 130px;
+	border: 1px solid brown;
+	padding-top: 10px;
+}
+
+.btn-pic {
+	position: absolute;
+	top: 150px;
+	left: 200px;
+}
+
+/*========== Book End ========*/
+
+/*========== Blog Start ========*/
+#blog {
+	background: brown;
+	position: relative;
+}
+
+#particles-js-other-part .particles-js-canvas-el {
+	position: absolute;
+	top: 0;
+	z-index: 9999999;
+}
+
+.blog-img img {
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+.blog-text h3 {
+	font-size: 40px;
+	font-weight: 400;
+	text-transform: capitalize;
+	font-family: 'Abril Fatface';
+	padding-bottom: 10px;
+	color: #fff;
+}
+
+.blog-text p {
+	color: #fff;
+	line-height: 24px;
+	font-size: 14px;
+	font-weight: 400;
+	font-family: 'Open Sans';
+}
+
+/*========== Blog End ========*/
+
+/*========== Part Start ========*/
+#party {
+	padding-bottom: 100px;
+	padding-top: 100px;
+}
+
+.party-text h1 {
+	font-size: 40px;
+	font-weight: 400;
+	text-transform: capitalize;
+	font-family: 'Abril Fatface';
+	padding-bottom: 20px;
+	color: brown;
+}
+
+.party-text p {
+	color: #111;
+	line-height: 24px;
+	font-size: 14px;
+	font-weight: 400;
+	font-family: 'Open Sans';
+}
+
+/*========== Party End ========*/
+
+/*========== Wish Start ========*/
+#wish {
+	padding-top: 50px;
+}
+
+/*==========Wish End ========*/
+
+
+/*========== Back-top start ========*/
+.back-top {
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	display: none;
+	cursor: pointer;
+}
+
+/*========== Back-top End ========*/
+
+/*========== Footer Start ========*/
+#footer {
+	background: brown;
+	margin-top: 50px;
+}
+
+.footer-text {
+	padding-top: 60px;
+	position: relative;
+}
+
+.footer-text p {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 14px;
+	color: #fff;
+	line-height: 10px;
+}
+
+.footer-text i {
+	width: 50px;
+	height: 50px;
+	background: #fff;
+	color: brown;
+	font-size: 23px;
+	border-radius: 50%;
+	text-align: center;
+	cursor: pointer;
+	color: brown;
+	padding-top: 13px;
+	position: absolute;
+	top: 55px;
+	left: 20px;
+
+}
+
+.f-icon i {
+	width: 50px;
+	height: 50px;
+	background: transparent;
+	font-size: 20px;
+	border-radius: 50%;
+	text-align: center;
+	cursor: pointer;
+	color: #fff;
+	padding-top: 13px;
+	border: 2px solid #fff;
+
+}
+
+.f-icon i:hover {
+	background: #111;
+	color: #fff;
+	border: none;
+}
+
+.f-txt {
+	padding-bottom: 20px;
+}
+
+.f-txt h1 {
+	font-family: 'Abril Fatface';
+	font-weight: 400;
+	font-size: 25px;
+	color: brown;
+}
+
+.f-lst li {
+	display: inline-block;
+	list-style-type: none;
+}
+
+.f-lst a {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 14px;
+	color: #fff;
+}
+
+.f-lst a:hover {
+	color: #111;
+	outline: none;
+}
+
+.copy p {
+	padding-bottom: 20px;
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 14px;
+	color: #fff;
+}
+
+.copy p span {
+	color: #000;
+	font-size: 15px;
+
+	font-weight: 400;
+}
+
+.f-icon {
+	padding-bottom: 20px;
+}
+
+.f-lst li {
+	color: #fff;
+}
+
+hr {
+	border-top: 1px solid #fff;
+}
+
+.footer-logo img {
+	margin-top: 30px;
+}
+
+/*========== Footer End ========*/
+
+
+/*========== Banner Start ========*/
+/* SOUND BUTTON CSS */
+.sound_toggle_btn{
+	display: inline-block;
+	cursor: pointer;
+}
+.control{
+	padding: 5px;
+	position: fixed;
+	top: 33px;
+	left: calc((100% - 1220px)/2);
+	z-index: 999;
+	border-radius: 5px;
+}
+.sound_toggle_btn span {
+  line-height: 24px;
+  width: 27px;
+  text-align: center;
+  display: inline-block;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  font-size: 12px;
+  color: red;
+  background: red;
+  box-shadow: 0px 0px 2px rgba(0,0,0,0.17);
+}
+
+.slider-input[type="range"] {
+	-moz-appearance: none;
+    position: relative;
+    vertical-align: middle;
+    width: 100px;
+    border-radius: 20px;
+    overflow: hidden;
+	width: auto;
+	display: inline-block;
+	outline: none;
+	width: 0px;
+	opacity: 0;
+	transition: 0.3s;
+}
+.control:hover{
+	background: #f1f1f1;
+}
+.control:hover  .slider-input[type="range"]{
+	width: 50px;
+	opacity: 1;
+}
+.slider-input::-webkit-slider-thumb,
+.slider-input::slider-thumb {
+	-moz-appearance: none;
+    -webkit-appearance: none;
+    border-radius: 20px;
+    width: 20px;
+    height: 20px;
+    border: 5px solid hsl(0,0%,80%);
+    cursor: pointer;
+    background: hsl(0,0%,40%);
+    box-shadow: inset 0 1px 2px hsla(0,0%,0%,.4);
+    transition: border-width .2s cubic-bezier(.26, .08, .15, 1);
+}
+
+.slider-input:active::-webkit-slider-thumb,
+.slider-input:active::slider-thumb {
+    border: 0px solid hsl(0,0%,80%);
+    transition-duration: .1;
+}
+/*========== navbar End ========*/
+/*========== Banner Start ========*/
+/*========== navbar End ========*/
+/*========== Banner Start ========*/
+/*========== navbar End ========*/

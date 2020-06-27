@@ -1,0 +1,221 @@
+/*================ Extra small devices ===============*/
+
+@media (max-width: 575.98px) {
+	
+	.book-text {
+		display: none;
+	}
+	.navbar-light .navbar-toggler {
+		border-color: transparent;
+		color: brown;
+	}
+
+	.navbar-light .navbar-toggler:focus {
+		outline: none;
+	}
+
+	.navbar-light .navbar-nav .nav-link {
+		text-align: center;
+	}
+	
+	#angle {
+		display: none;
+	}
+	#donate {
+	padding-top: 0px;
+	padding-bottom: 40px;
+}
+	#skewed {
+	padding-bottom: 50px;
+}
+	.donate-text h1 {
+	font-size: 50px;
+	padding-top: 50px;
+	padding-bottom: 47px;
+}
+	.counter-text h1 {
+	font-size: 28px;
+	line-height: 0;
+	padding-bottom: 36px;
+}
+	.coun {
+	top: 41px;
+	left: 11px;
+	z-index: 999;
+}
+	.coun2 {
+	position: absolute;
+	top: 56px;
+	left: 8px;
+	z-index: 9999;
+}
+	.counter-item h2 {
+	font-size: 10px;
+}
+	.counter-item h3 {
+	font-size: 8px;
+}
+	#party {
+	padding-bottom: 40px;
+	padding-top: 0;
+}
+	.donate-text h1 {
+	font-size: 45px;
+	padding-top: 30px;
+}
+	.party-text h1 {
+	padding-top: 20px;
+	font-size: 35px;
+}
+	#footer {
+	margin-top: 0;
+}
+	.btn {
+	margin-bottom: 40px;
+}
+	.footer-text i {
+	width: 40px;
+	height: 40px;
+	font-size: 20px;
+	padding-top: 9px;
+	top: 55px;
+	left: -2px;
+}
+	.f-icon i {
+	width: 48px;
+	height: 48px;
+}
+}
+
+/*================ Small device ============*/
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+	
+	.navbar-light .navbar-toggler {
+		border-color: transparent;
+		color: brown;
+	}
+
+	.navbar-light .navbar-toggler:focus {
+		outline: none;
+	}
+
+	.navbar-light .navbar-nav .nav-link {
+		text-align: center;
+	}
+
+	
+	.book-text {
+		display: none;
+	}
+	.coun {
+	position: absolute;
+	top: 91px;
+	left: 19px;
+	z-index: 99999;
+}
+	#skewed {
+	padding-bottom: 0;
+}
+	.donate-text h1 {
+	line-height: 0px;
+	padding-bottom: 40px;
+	padding-top: 45px;	
+}
+	#donate {
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+	.counter-item h2 {
+	font-size: 20px;
+}
+	.counter-item h3 {
+	font-size: 18px;
+}
+	.coun2 {
+	position: absolute;
+	top: 123px;
+	left: 19px;
+	z-index: 999;
+}
+	#party {
+	padding-top: 0;
+	padding-bottom: 0;	
+}
+	.btn {
+	margin-bottom: 40px;
+}
+}
+
+/*======================= Medium devices =================*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.navbar-light .navbar-toggler {
+		border-color: transparent;
+		color: brown;
+	}
+
+	.navbar-light .navbar-toggler:focus {
+		outline: none;
+	}
+
+	.navbar-light .navbar-nav .nav-link {
+		text-align: center;
+	}
+	#angle {
+		display: none;
+	}
+	#donate {
+	padding-top: 40px;
+	padding-bottom: 100px;
+}
+	#skewed {
+	padding-bottom: 30px;
+}
+	.donate-text h1 {
+	font-size: 60px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+	.coun {
+	top: 132px;
+	left: 31px;
+}
+	.coun2 {
+	position: absolute;
+	top: 170px;
+	left: 19px;
+	z-index: 999;
+}
+	#party {
+	padding-bottom: 0; 
+	padding-top: 30px;
+}
+	.book-text {
+	position: absolute;
+	left: 51px;
+	top: -382px;
+}
+}
+
+/*========================= Large devices ======================*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.coun {
+	position: absolute;
+	top: 193px;
+	left: 63px;
+}
+#party {
+	padding-bottom: 0;
+}
+	.footer-text i {
+	top: 58px;
+	left: -9px;
+}
+}
+
+/*========================= Large devices ======================*/
+@media (min-width: 1200px) {
+	#party {
+	padding-bottom: 30px;
+}
+}
